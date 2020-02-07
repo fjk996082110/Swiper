@@ -1,0 +1,11 @@
+可以通过Swiper.js 快速生成轮播图
+```js
+new Swiper('#swiper-container', {
+        loop: true, //无缝滚动
+        auto: true, //自动播放
+        time: 3000, //切换的时间间隔
+        pagination: true //是否显示导航点
+    });
+    @依赖
+    transformCSS.js
+```
