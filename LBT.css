@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#container .banner {
+  list-style: none;
+  overflow: hidden;
+  width: 500%;
+}
+#container .banner .banner-item {
+  float: left;
+  width: 20%;
+}
+#container .banner .banner-item img {
+  display: block;
+  width: 100%;
+}
+#container .bannerNav {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#container .bannerNav li {
+  list-style: none;
+  float: left;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+#container .bannerNav li.active {
+  background: red;
+}
